@@ -1,0 +1,58 @@
+/* Header part styles */
+
+header {
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: lemonchiffon;
+  background-image: url(images/header_bg.png),url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right,left;
+  background-size: 700px,contain;
+}
+figure{
+  margin-bottom: 0;
+}
+
+.nav-title {
+  font-size: 50px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 80px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+
+}
+
+.text-color {
+  color: red;
+}
+
+li {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.btn-primary-color{
+  color: white;
+  background-color: darksalmon;
+}
+/* banner part styles */
+.banner{
+display: flex;
+justify-content: space-between;
+margin:50px 80px;
+}
+.banner-sub-title{
+color: rgb(170, 22, 22);
+}
+.banner-title{
+font-size:30px ;
+}
+.banner-description{
+color: black;
+}
