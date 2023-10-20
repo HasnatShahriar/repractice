@@ -1,4 +1,8 @@
 /* Header part styles */
+*{
+  max-width: 1400px;
+  align-items: center;
+}
 
 header {
   font-family: 'Bebas Neue', sans-serif;
@@ -55,4 +59,8 @@ font-size:30px ;
 }
 .banner-description{
 color: black;
+}
+.btn-contact:hover{
+  color: aquamarine;
+  background-color: brown;
 }
